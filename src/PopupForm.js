@@ -59,11 +59,11 @@ export default function PopupForm() {
   
     try {
       const response = await axios.post(
-        'http://localhost:8081/api/notifications/add/user/subscribe',
+        'http://54.85.80.177:8081/api/notifications/add/user/subscribe',
         formData,
         {
           headers: {
-            "Authorization": `Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImE1NzMzYmJiZDgxOGFhNWRiMTk1MTk5Y2Q1NjhlNWQ2ODUxMzJkM2YiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI0NDA5NDk3MjQ5NzYtNWZvNTZqNHNmcW0yY2M3MGVlMWZldjA5amZpZ2NrczAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI0NDA5NDk3MjQ5NzYtNWZvNTZqNHNmcW0yY2M3MGVlMWZldjA5amZpZ2NrczAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDMxMTM3Nzg3NjUwMzk5NDcxMTIiLCJhdF9oYXNoIjoianhEX05VV2ZUZ1FJUFN5ODAtSC02USIsImlhdCI6MTc2MzY1NzU1NiwiZXhwIjoxNzYzNjYxMTU2fQ.wsf0fqpKroYdQM2oON81Lrf-Ijvx16vi90aws-bQdHuGqE7i9H8IlHFFJ8VzEYTHdbKl8NfccisksudMvNLWJfxAjbdQ4u3sRuPKMe60G0el2i2qhXWxUXFYcB25hoEix5dviSc4SCH3_J9q0Zd9Rhsh-AksFtuID7gzuioyia2eDiMUdp0_8xzowlQlixKQjiNuHIsHzlmzvVBP6jSW9OEwwldXjjs0V3PH9JbPDnAa43hDxpzVHBG5kYFC0IiAH0nNlQ8y_IjF6UMPDAz2j0KF6Q9J_TM8akjpIktybGvnVy9_CqOYP0ZcfmykIKjXU6C4VS29x0bGhhJA5U81cQ`,
+            "Authorization": `Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImE1NzMzYmJiZDgxOGFhNWRiMTk1MTk5Y2Q1NjhlNWQ2ODUxMzJkM2YiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI0NDA5NDk3MjQ5NzYtNWZvNTZqNHNmcW0yY2M3MGVlMWZldjA5amZpZ2NrczAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI0NDA5NDk3MjQ5NzYtNWZvNTZqNHNmcW0yY2M3MGVlMWZldjA5amZpZ2NrczAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDMxMTM3Nzg3NjUwMzk5NDcxMTIiLCJhdF9oYXNoIjoiSC1icW04YlZ6cWdINWxMTlRXT2FZQSIsImlhdCI6MTc2Mzg5MjU1NCwiZXhwIjoxNzYzODk2MTU0fQ.laPtQaVF8NaQH3ih9lm8Q1itH8Q80x8w8aonbdcaK-Pze8vDb_lwqGndRBfSbkW4Jp7Ds0LiwoA5i4fGtG1R2uV7HXIg4HGphvi5a9tw_VdSHNZp6uPL_ml0KEQ72xDkbXtL9pSdVY8T-2BEfDyjb5JYSXAyWi2oHvzdaI9Lqhzr_jLsanMtsDJr7o_hD00wl0lSU7QaLwVrrY1hVGx8cCEZjQA6qbwywWG4vgQJvr1twNlVx4QAw30DTCohnfT8uQ49otP-2TJxq102a7RZ3mVnUEHWWKI94KfOtdBVuIAtCAjMw1MVC2r-XdaEIw8xL8wZQX409ir6ffZifJ9ikA`,
             "Content-Type": "application/json"
           }
         }
